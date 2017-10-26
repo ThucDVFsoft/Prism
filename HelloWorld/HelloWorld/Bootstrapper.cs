@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,14 @@ namespace HelloWorld
 {
     class Bootstrapper : UnityBootstrapper
     {
+        protected override void ConfigureModuleCatalog()
+        {
+            base.ConfigureModuleCatalog();
+
+            //ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
+            ((ModuleCatalog)this.ModuleCatalog).AddModule(typeof(HelloWorldModule.HelloWorldModule));
+        }
+
         protected override DependencyObject CreateShell()
         {
             return this.Container.Resolve<Shell>();
@@ -23,14 +31,6 @@ namespace HelloWorld
 
             App.Current.MainWindow = (Window)this.Shell;
             App.Current.MainWindow.Show();
-        }
-
-        protected override void ConfigureModuleCatalog()
-        {
-            base.ConfigureModuleCatalog();
-
-            //ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
-            ((ModuleCatalog)this.ModuleCatalog).AddModule(typeof(HelloWorldModule.HelloWorldModule));
         }
     }
 }
