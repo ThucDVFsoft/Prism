@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Controllers\MainRegionController.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Employees.cs" />
     <Compile Include="Models\Project.cs" />
