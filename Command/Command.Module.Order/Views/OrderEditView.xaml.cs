@@ -12,17 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Command.Module.Order.ViewModels;
 
 namespace Command.Module.Order.Views
 {
     /// <summary>
     /// Interaction logic for OrderEditViewModel.xaml
     /// </summary>
-    public partial class OrderEditViewModel : UserControl
+    public partial class OrderEditView : UserControl
     {
-        public OrderEditViewModel()
+        public OrderEditView(OrderViewModel viewmodel)
         {
             InitializeComponent();
+            this.DataContext = viewmodel;
         }
     }
 }

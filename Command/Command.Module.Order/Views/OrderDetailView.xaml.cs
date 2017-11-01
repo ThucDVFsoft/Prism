@@ -18,9 +18,9 @@ namespace Command.Module.Order.Views
     /// <summary>
     /// Interaction logic for OrderDetailViewModel.xaml
     /// </summary>
-    public partial class OrderDetailViewModel : UserControl
+    public partial class OrderDetailView : UserControl
     {
-        public OrderDetailViewModel()
+        public OrderDetailView()
         {
             InitializeComponent();
         }
