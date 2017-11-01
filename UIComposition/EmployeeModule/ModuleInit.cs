@@ -1,6 +1,5 @@
 ﻿using EmployeeModule.Controllers;
 using EmployeeModule.Services;
-using EmployeeModule.ViewModels;
 using EmployeeModule.Views;
 using Microsoft.Practices.Prism.PubSubEvents;
 using Microsoft.Practices.Unity;
