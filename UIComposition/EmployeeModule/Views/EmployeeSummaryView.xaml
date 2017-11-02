@@ -20,8 +20,8 @@
         </Grid.RowDefinitions>
         <TextBlock Text="Employee Summary View"
                    FontSize="18"
-                   Foreground="#FF2F3806"
-                   Margin="8" >
+                   Foreground="#FFBBD3EF"
+                   Margin="5,5,5,10" >
         </TextBlock>
         <TabControl Grid.Row="1"
                     prism:RegionManager.RegionName="TabRegion"

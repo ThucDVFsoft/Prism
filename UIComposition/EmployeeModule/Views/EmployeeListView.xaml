@@ -10,7 +10,13 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         
-        <TextBlock Text="Employee List View" FontSize="20" VerticalAlignment="Top"></TextBlock>
+        <TextBlock Text="Employee List View" 
+                   FontSize="18" 
+                   VerticalAlignment="Top" 
+                   Foreground="#FFBBD3EF"
+                   Margin="5,5,5,10">
+            
+        </TextBlock>
         
         <DataGrid ItemsSource="{Binding Path=Employees}"
                   Grid.Row="1"
