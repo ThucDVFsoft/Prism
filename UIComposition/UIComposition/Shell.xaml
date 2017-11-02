@@ -17,7 +17,7 @@
                             </Grid.RowDefinitions>
                             <Border Grid.Row="0"
                             CornerRadius="4,4,0,0"
-                            BorderBrush="#FF0254B4"
+                            BorderBrush="#FF0254B4" 
                             BorderThickness="1"
                             VerticalAlignment="Top">
                                 <Border.Background >
