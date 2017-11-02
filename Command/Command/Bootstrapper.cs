@@ -2,7 +2,7 @@ using System.Windows;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Prism.UnityExtensions;
 using Microsoft.Practices.Prism.Modularity;
-using Command.Module.Order;
+using Command.Module.OrderModule;
 
 namespace Command
 {

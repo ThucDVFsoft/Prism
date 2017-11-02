@@ -1,6 +1,6 @@
 using Microsoft.Practices.Prism.Commands;
 
-namespace Command.Module.Order.SaveAll
+namespace Command.Module.SaveAll
 {
     public static class SaveAllCommand
     {

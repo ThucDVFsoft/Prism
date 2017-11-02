@@ -1,13 +1,11 @@
-<UserControl x:Class="Command.Module.Order.Views.Toolbar"
+<UserControl x:Class="Command.Module.Views.Toolbar"
                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                xmlns:saveAll="clr-namespace:Command.Module.Order.SaveAll">
-    <Grid>
+                xmlns:saveAll="clr-namespace:Command.Module.SaveAll">
         <ToolBar>
             <Button Content="Save All Orders"
                     Command="{x:Static saveAll:SaveAllCommand.SaveAllCmd}">
             </Button>
             <Separator />
         </ToolBar>
-    </Grid>
 </UserControl>

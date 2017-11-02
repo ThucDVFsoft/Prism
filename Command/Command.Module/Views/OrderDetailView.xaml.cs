@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Command.Module.Order.Views
+namespace Command.Module.Views
 {
     /// <summary>
     /// Interaction logic for OrderDetailViewModel.xaml
     /// </summary>
-    public partial class OrderDetailViewModel : UserControl
+    public partial class OrderDetailView : UserControl
     {
-        public OrderDetailViewModel()
+        public OrderDetailView()
         {
             InitializeComponent();
         }
