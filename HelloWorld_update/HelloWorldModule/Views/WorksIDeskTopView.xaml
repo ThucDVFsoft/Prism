@@ -1,0 +1,17 @@
+﻿<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ixv="clr-namespace:HelloWorldModule.Views">
+    <Style TargetType="ixv:WorksIDeskTopView">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ixv:WorksIDeskTopView">
+                    <Grid HorizontalAlignment="Stretch"
+						  VerticalAlignment="Stretch">
+                        <TextBlock Text="hhhhhhhhhhhhhhhh"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
